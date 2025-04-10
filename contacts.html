@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="main.html" id="navbar__logo"><img src="logo.jpg" alt="/"></a>
+            <a href="main.html" id="navbar__logo"><img src="logo.jpg" alt="/"></a>s
           <div class="navbar__toggle" id="mobile-menu" aria-label="Toggle navigation menu">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -32,47 +32,28 @@
         </div>
     </nav>
 
-      </div> 
+    <section class="contact-section">
+        <div class="contact-form">
+          <h2>Contacts</h2>
+          <p>Lets get in touch and talk about your next project.</p>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
     
-    <div class="text">
-        <p>Projects</p>
-    </div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+    
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project subject" required>
+    
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your content" rows="4" required></textarea>
+    
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
 
-    <div class="card-container">
-        <div class="card">
-          <img src="timbuktu.jpg" alt="Project Thumbnail 1">
-          <div class="label">
-            <div class="dot"></div>
-            <p>Timbaktu</p>
-          </div>
-        </div>
-      
-        <div class="card">
-          <img src="jene2.jpg" alt="Project Thumbnail 2">
-          <div class="label">
-            <div class="dot"></div>
-            <p>jene</p>
-          </div>
-        </div>
-      
-        <div class="card">
-          <img src="sundiata2.jpg" alt="Project Thumbnail 3">
-          <div class="label">
-            <div class="dot"></div>
-            <p>sundiata</p>
-          </div>
-        </div>
-      
-        <div class="card">
-          <img src="Timbac.jpg" alt="Project Thumbnail 4">
-          <div class="label">
-            <div class="dot"></div>
-            <p>waga</p>
-          </div>
-        </div>
-    <div>
-  
-      
  <script src="app.js"></script>
 </body>
 </html>
